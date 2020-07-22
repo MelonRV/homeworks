@@ -24,7 +24,7 @@ public class MyStepdefs {
 
     @Before
     public void before() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Melon\\IdeaProjects\\homeworks\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Melon\\IdeaProjects\\homeworks1\\chromedriver.exe");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
